@@ -1,0 +1,7 @@
+#summary Setting up Mercurial on Eclipse for use with Google Code
+
+Learn Mercurial:
+http://hgbook.red-bean.com/read/
+
+Learn Mercurial Plugin for Eclipse:
+http://www.javaforge.com/project/HGE
