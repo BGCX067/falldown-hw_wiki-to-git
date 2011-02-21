@@ -1,7 +1,26 @@
 #summary Setting up Mercurial on Eclipse for use with Google Code
 
-Learn Mercurial:
-http://hgbook.red-bean.com/read/
+==Reference Links==
+  * Mercurial: http://hgbook.red-bean.com/read/
+  * Mercurial Plugin for Eclipse: http://www.javaforge.com/project/HGE
 
-Learn Mercurial Plugin for Eclipse:
-http://www.javaforge.com/project/HGE
+==Cloning the Repository==
+  # Delete your local copy of the code from your workspace
+  # Install the plugin in Eclipse
+  # File... New Project
+  # Mercurial > Clone Existing
+  # Input the URL found in the "Source" section of this site
+  # Input your email, and the password found in the "Source" section of this site
+  
+==Committing Changes==
+Everyone who clones the repository has a local copy of the entire history of the project on their computer.  So when you *commit* your changes, you're really just committing them to the _local_ copy of the repository on your machine.  If you want to update the _real_ repository on google code, you have to *push* the project.
+
+  # Right click project > Team
+  # Select commit to commit the changed files to your local repo
+  # Select push to push your local repo to google code
+
+==Misc Notes==
+  * Make sure to use the HTTPS url when pushing updates, or else you get a 403 Forbidden error
+  * Make sure to use the special password found in the "Source" section of this site, not your gmail password
+  * The long hex number after the project name in the workspace is the SHA-1 hash generated based on the content of the current branch.  The idea is that it will be unique for each step in the project.
+  * 
