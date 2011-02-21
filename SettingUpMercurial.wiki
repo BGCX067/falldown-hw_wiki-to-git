@@ -13,7 +13,7 @@
   # Input your email, and the password found in the "Source" section of this site
   
 ==Committing Changes==
-Everyone who clones the repository has a local copy of the entire history of the project on their computer.  So when you *commit* your changes, you're really just committing them to the _local_ copy of the repository on your machine.  If you want to update the _real_ repository on google code, you have to *push* the project.
+Everyone who clones the repository has a local copy of the entire history of the project on their computer.  So when you select the command to *commit* your changes, you're only updating your _local_ copy of the repository.  To update the googlecode repository, first *commit* the changes, then select the *push* command.
 
   # Right click project > Team
   # Select commit to commit the changed files to your local repo
