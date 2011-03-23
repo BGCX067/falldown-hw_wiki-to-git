@@ -21,7 +21,7 @@
     # GdxTest: The game, with an application launcher for the desktop
     # GdxTest-Android: The application launcher for android
   * All the game code is in GdxTest.  The GdxTest-Android is just an Android application that references the game code in GdxTest.
-  * To run the game:
+  * *To run the game*:
     # Right click "GdxTest" in the package explorer pane on the left
     # Run As > Java Application
     # If asked, select "GdxTestDesktop - com.gdx.test"
