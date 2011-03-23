@@ -1,17 +1,32 @@
-#summary Setting up Mercurial on Eclipse for use with Google Code
+#summary Setting up your environment
 
-==Reference Links==
-  * Mercurial: http://hgbook.red-bean.com/read/
-  * Mercurial Plugin for Eclipse: http://www.javaforge.com/project/HGE
-
-==Cloning the Repository==
-  # Delete your local copy of the code from your workspace
-  # Install the plugin in Eclipse
-  # File... New Project
-  # Mercurial > Clone Existing
-  # Input the URL found in the "Source" section of this site
-  # Input your email, and the password found in the "Source" section of this site
+==Setup==
+  # Download [http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/heliossr2 Eclipse IDE for Java Developers]
+  # Install the Mercurial plugin in Eclipse:
+    * Open Eclipse
+    * Help > Install New Software
+    * Add
+      * Name: Mercurial
+      * URL: http://cbes.javaforge.com/update
+    * Select "MercurialEclipse"
+    * Continue until it's installed and restart
+  # Pull code from repository:
+    * File... New Project
+    * Mercurial > Clone Existing
+    * Input the URL found in the "Source" section of this site
+    * Input your email, and the password found in the "Source" section of this site
   
+== Getting Familiar ==
+  * You should see two projects in the package explorer pane:
+    # GdxTest: The game, with an application launcher for the desktop
+    # GdxTest-Android: The application launcher for android
+  * All the game code is in GdxTest.  The GdxTest-Android is just an Android application that references the game code in GdxTest.
+  * To run the game:
+    # Right click "GdxTest" in the package explorer pane on the left
+    # Run As > Java Application
+    # If asked, select "GdxTestDesktop - com.gdx.test"
+    # After the first time you've done this, you should be able to quickly run the game with the green play button in the toolbar.
+
 ==Committing Changes==
 Everyone who clones the repository has a local copy of the entire history of the project on their computer.  So when you select the command to *commit* your changes, you're only updating your _local_ copy of the repository.  To update the googlecode repository, first *commit* the changes, then select the *push* command.
 
