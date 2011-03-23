@@ -14,7 +14,7 @@
     * File... New Project
     * Mercurial > Clone Existing
     * Input the URL found in the "Source" section of this site
-    * Input your email, and the password found in the "Source" section of this site
+    * Input your email, and the password found in the "Source" section of this site (if you want to commit changes)
   
 == Getting Familiar ==
   * You should see two projects in the package explorer pane:
